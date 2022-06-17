@@ -1,0 +1,17 @@
+{
+    "name": "denis-kisel/batch-update",
+    "description": "Batch Update",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DenisKisel\\BatchUpdate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Kisel"
+        }
+    ],
+    "require": {}
+}
