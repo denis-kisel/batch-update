@@ -4,7 +4,7 @@ namespace DenisKisel\BatchUpdate;
 
 use Illuminate\Support\Facades\DB;
 
-class UpdateBatch
+class BatchUpdate
 {
     protected string $table;
     protected array $multipleData = [];
