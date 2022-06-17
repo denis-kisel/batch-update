@@ -4,8 +4,13 @@ Update batch rows in one query!
 ### Support
 `laravel`
 
-Base Usage
+### Install
 ```
+composer require denis-kisel/batch-update
+```
+
+Base Usage
+```php
 (new UpdateBatch('table_name', $batchArrayData))->run();
 
 
